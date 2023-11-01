@@ -7,6 +7,8 @@
   --very-dark-blackish-blue: hsl(219, 29%, 14%);
   --white: hsl(0, 0%, 100%);
   --light-gray: hsl(0, 0%, 81%);
+  /* --moderate-violet: hsla(263, 55%, 52%, 90%); */
+  --light-violet: hsl(263, 55%, 70%);
   --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
@@ -17,14 +19,15 @@ body {
   align-items: center;
   font-size: 13px;
   background-color: var(--light-grayish-blue);
+  font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
 main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 1110px;
-  height: 572px;
+  width: 1200px;
+  height: 600px;
   gap: 1rem;
 }
 
@@ -42,6 +45,7 @@ main {
   border-radius: 1rem;
   padding: 1.5rem;
   justify-content: space-between;
+  gap: 1rem;
 }
 
 .item__card {
@@ -61,8 +65,12 @@ main {
   color: var(--white);
 }
 
-.light-gray {
+.font-light-gray {
   color: var(--light-gray);
+}
+
+.font-very-dark-blackish-blue {
+  color: var(--very-dark-blackish-blue);
 }
 
 /*
@@ -83,12 +91,12 @@ main {
 }
 
 .item__paragrafo {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .item__citacao {
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
   font-weight: 500;
 }
 
