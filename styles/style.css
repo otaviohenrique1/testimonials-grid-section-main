@@ -54,6 +54,8 @@ main {
 
 .card__imagem {
   border-radius: 10rem;
+  width: 56px;
+  height: 56px;
 }
 
 .card__info {
@@ -145,7 +147,7 @@ main {
   /* grid-area: 1/4/3/5; */
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (min-width: 800px) {
   body {
     align-items: flex-start;
     margin-top: 20%;
@@ -177,9 +179,9 @@ main {
   .item-5 {
     grid-area: 3/1/4/4;
   }
-}
+} */
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 800px) {
   body {
     align-items: flex-start;
     margin-top: 20%;
